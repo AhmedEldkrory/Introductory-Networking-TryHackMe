@@ -1,120 +1,56 @@
+ # Ahmed Abdelaziz Eldkrory – TryHackMe Learning Repository
+*Junior Penetration Tester*
 
-# Introductory Networking – TryHackMe
-
-*Prepared by Ahmed Abdelaziz Eldkrory (EDGAR)*  
-Junior Penetration Tester  
 📧 Email: [ahmed.a.eldkrory@gmail.com](mailto:ahmed.a.eldkrory@gmail.com)  
-🔗 LinkedIn: [www.linkedin.com/in/ahmed-eldkrory](https://www.linkedin.com/in/ahmed-eldkrory)  
-
-Full write-up on Medium: [Introductory Networking THM Room](https://medium.com/@ahmed.a.eldkrory/introductory-networking-thm-room-62866ae1aea7)  
-TryHackMe Room: [Introductory Networking](https://tryhackme.com/room/introtonetworking)
+🔗 LinkedIn: [www.linkedin.com/in/ahmed-eldkrory](https://www.linkedin.com/in/ahmed-eldkrory)
+- TryHackMe: [EDGAR](https://tryhackme.com/p/.EDGAR.)  
+- Medium: [Ahmed Abdelaziz Eldkrory](https://medium.com/@ahmed.a.eldkrory)
 
 ---
 
 ## Overview
-This document demonstrates my understanding of networking fundamentals from a security perspective and summarizes key networking concepts and tools covered in the **Introductory Networking room**.  
-The focus is on **understanding, technical reasoning, and ethical learning**, rather than reproducing lab content or solutions.
+This repository serves as a central reference for all **TryHackMe rooms** that I have completed or will complete in the future.  
+It contains **PDFs, notes, and write-ups** summarizing my personal learning, technical reasoning, and reflections on cybersecurity tasks.  
+
+The focus is on:
+
+- Understanding core concepts and tools  
+- Documenting ethical, practical learning experiences  
+- Building a personal reference for penetration testing and CTF challenges  
 
 ---
 
-## Why Networking Matters in Cybersecurity
-Networking is not just a theoretical topic — it’s the foundation of how systems communicate, how services are exposed, and how attackers and defenders interact.  
+## Purpose
+The goal of this repository is to:
 
-For penetration testers, a strong networking background enables:  
-- Accurate reconnaissance and scoping  
-- Better interpretation of tool output  
-- Clear technical communication during assessments  
+- Keep a **structured record** of all solved rooms  
+- Maintain a **personal learning archive**  
+- Provide a **reference for future practice or tutorials**  
 
-Understanding networking early saves time, reduces mistakes, and builds confidence when moving into advanced security topics.
-
----
-
-## Networking Models: Thinking in Layers
-
-### OSI Model – A Diagnostic Framework
-The OSI model breaks communication into logical layers, each with a specific role.  
-Security professionals use this model to:  
-- Pinpoint where issues occur  
-- Understand where attacks are executed  
-- Communicate findings using a shared technical language  
-
-> It’s a thinking tool — not just a diagram.  
-
-**Mnemonic for layers:**  
-*Anxious Pale Shakespeare Treated Nervous Drunks Patiently*
-
-### TCP/IP Model – How the Internet Actually Works
-The TCP/IP model reflects real-world implementation.  
-It simplifies networking into practical layers used by modern systems and protocols.  
-Knowing both models helps bridge the gap between theory and hands-on security work.
-
-### Packet Encapsulation: How Data Travels
-Encapsulation describes how data is wrapped with protocol-specific information as it moves through the network stack.  
-From a security perspective, this explains:  
-- Why packet inspection is powerful  
-- How metadata is exposed at different layers  
-- Where monitoring and filtering mechanisms operate  
-
-Understanding encapsulation makes traffic analysis far more intuitive.  
+This is intended as a personal portfolio and a study resource for anyone interested in **cybersecurity fundamentals, penetration testing, and CTF challenges**.
 
 ---
 
-## Essential Networking Tools (High-Level View)
+## Repository Structure
+- `/pdfs/` – Contains all uploaded PDFs for solved rooms  
+- `/notes/` – Any additional notes, scripts, or references  
 
-### Ping
-- Tests basic connectivity and reachability between systems  
-- Often the first step to check if a host is accessible  
-
-### Traceroute
-- Shows the path traffic takes to reach a destination  
-- Useful for understanding routing behavior and network structure  
-
-### WHOIS
-- Retrieves registration and ownership information for domains and IP ranges  
-- Provides valuable context during reconnaissance and scope validation  
-
-### Dig
-- Queries DNS records directly to understand how domains resolve and are configured  
-- A key tool for DNS analysis and troubleshooting  
 
 ---
 
-## Pentester Mindset: How These Fit Together
-These concepts and tools are primarily used during the **reconnaissance phase** of a penetration test.  
-The goal is to:  
-- Observe before interacting  
-- Understand the environment before testing it  
-- Build a mental map of the network  
-
-> Good reconnaissance is about clarity, not noise.
-
----
-
-## Common Challenges & Key Insights
-Early learners often:  
-- Focus too much on tools instead of interpretation  
-- Expect immediate vulnerabilities instead of context  
-- Underestimate the value of fundamentals  
-
-**Main takeaway:**  
-Strong fundamentals scale. Weak fundamentals break under pressure.
+## How to Use
+1. Browse the `/pdfs/` folder to review completed rooms.  
+2. Check `/notes/` for command examples, tool usage, and reflections.  
+3. Add your own comments or observations if you wish to extend the repository for personal study.
 
 ---
 
 ## Key Takeaways
-- Networking models improve technical reasoning  
-- Encapsulation explains packet-level visibility  
-- Simple tools provide powerful insights when used correctly  
-- Ethical, passive reconnaissance is a core security skill  
-- Fundamentals are a long-term investment in your career  
+- Documenting solved rooms strengthens **technical understanding**  
+- Keeping references helps **quickly recall tools and concepts**  
+- Ethical learning and reflection are crucial for building a **strong cybersecurity foundation**  
 
 ---
 
-## Real-World Relevance
-In professional security work, these skills support:  
-- Network reconnaissance and validation  
-- Incident response investigations  
-- Security assessments and audits  
-- Clear reporting and stakeholder communication  
-
-> Every advanced technique builds on these basics.
+## License
+This repository is for **educational purposes only** and is a personal record of my learning journey. All content follows ethical cybersecurity principles.
