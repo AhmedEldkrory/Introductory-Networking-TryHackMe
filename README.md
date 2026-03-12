@@ -28,17 +28,11 @@ The goal of this repository is to:
 
 This is intended as a personal portfolio and a study resource for anyone interested in **cybersecurity fundamentals, penetration testing, and CTF challenges**.
 
----
-
-## Repository Structure
-- `/pdfs/` – Contains all uploaded PDFs for solved rooms  
-- `/notes/` – Any additional notes, scripts, or references  
-
 
 ---
 
 ## How to Use
-1. Browse the `/pdfs/` folder to review completed rooms.  
+1. Browse the pdfs to review completed rooms.  
 2. Check `/notes/` for command examples, tool usage, and reflections.  
 3. Add your own comments or observations if you wish to extend the repository for personal study.
 
